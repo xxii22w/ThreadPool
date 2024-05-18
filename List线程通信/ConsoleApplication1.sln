@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "List线程通信", "ConsoleApplication1.vcxproj", "{52EA3322-83AC-449F-BCC3-234C10C204B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多核运算实例编码base16并对比性能", "..\多核运算实例编码base16并对比性能\多核运算实例编码base16并对比性能.vcxproj", "{99F1FA01-C1D0-4686-AD85-6C3624ED7BB5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadpool", "..\threadpool\threadpool.vcxproj", "{16989594-C442-4F81-AEFB-4DD781FCD858}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threadpool_video", "..\threadpool_video\threadpool_video.vcxproj", "{38286A9F-8C7A-4315-BD9B-D91D67566896}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52EA3322-83AC-449F-BCC3-234C10C204B2}.Debug|x64.ActiveCfg = Debug|x64
+		{52EA3322-83AC-449F-BCC3-234C10C204B2}.Debug|x64.Build.0 = Debug|x64
+		{52EA3322-83AC-449F-BCC3-234C10C204B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{52EA3322-83AC-449F-BCC3-234C10C204B2}.Debug|x86.Build.0 = Debug|Win32
+		{52EA3322-83AC-449F-BCC3-234C10C204B2}.Release|x64.ActiveCfg = Release|x64
+		{52EA3322-83AC-449F-BCC3-234C10C204B2}.Release|x64.Build.0 = Release|x64
+		{52EA3322-83AC-449F-BCC3-234C10C204B2}.Release|x86.ActiveCfg = Release|Win32
+		{52EA3322-83AC-449F-BCC3-234C10C204B2}.Release|x86.Build.0 = Release|Win32
+		{99F1FA01-C1D0-4686-AD85-6C3624ED7BB5}.Debug|x64.ActiveCfg = Debug|x64
+		{99F1FA01-C1D0-4686-AD85-6C3624ED7BB5}.Debug|x64.Build.0 = Debug|x64
+		{99F1FA01-C1D0-4686-AD85-6C3624ED7BB5}.Debug|x86.ActiveCfg = Debug|Win32
+		{99F1FA01-C1D0-4686-AD85-6C3624ED7BB5}.Debug|x86.Build.0 = Debug|Win32
+		{99F1FA01-C1D0-4686-AD85-6C3624ED7BB5}.Release|x64.ActiveCfg = Release|x64
+		{99F1FA01-C1D0-4686-AD85-6C3624ED7BB5}.Release|x64.Build.0 = Release|x64
+		{99F1FA01-C1D0-4686-AD85-6C3624ED7BB5}.Release|x86.ActiveCfg = Release|Win32
+		{99F1FA01-C1D0-4686-AD85-6C3624ED7BB5}.Release|x86.Build.0 = Release|Win32
+		{16989594-C442-4F81-AEFB-4DD781FCD858}.Debug|x64.ActiveCfg = Debug|x64
+		{16989594-C442-4F81-AEFB-4DD781FCD858}.Debug|x64.Build.0 = Debug|x64
+		{16989594-C442-4F81-AEFB-4DD781FCD858}.Debug|x86.ActiveCfg = Debug|Win32
+		{16989594-C442-4F81-AEFB-4DD781FCD858}.Debug|x86.Build.0 = Debug|Win32
+		{16989594-C442-4F81-AEFB-4DD781FCD858}.Release|x64.ActiveCfg = Release|x64
+		{16989594-C442-4F81-AEFB-4DD781FCD858}.Release|x64.Build.0 = Release|x64
+		{16989594-C442-4F81-AEFB-4DD781FCD858}.Release|x86.ActiveCfg = Release|Win32
+		{16989594-C442-4F81-AEFB-4DD781FCD858}.Release|x86.Build.0 = Release|Win32
+		{38286A9F-8C7A-4315-BD9B-D91D67566896}.Debug|x64.ActiveCfg = Debug|x64
+		{38286A9F-8C7A-4315-BD9B-D91D67566896}.Debug|x64.Build.0 = Debug|x64
+		{38286A9F-8C7A-4315-BD9B-D91D67566896}.Debug|x86.ActiveCfg = Debug|Win32
+		{38286A9F-8C7A-4315-BD9B-D91D67566896}.Debug|x86.Build.0 = Debug|Win32
+		{38286A9F-8C7A-4315-BD9B-D91D67566896}.Release|x64.ActiveCfg = Release|x64
+		{38286A9F-8C7A-4315-BD9B-D91D67566896}.Release|x64.Build.0 = Release|x64
+		{38286A9F-8C7A-4315-BD9B-D91D67566896}.Release|x86.ActiveCfg = Release|Win32
+		{38286A9F-8C7A-4315-BD9B-D91D67566896}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5193644-928A-4274-B308-AAB6B65F7C30}
+	EndGlobalSection
+EndGlobal
